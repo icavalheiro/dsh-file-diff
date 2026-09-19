@@ -1,5 +1,7 @@
 # dsh-file-diff — File Diff Overview（文件修改总览）
 
+> **已废弃，dsh 已支持从版本 dsh-v0.1.6-alpha.2**
+
 DSH Web 的修改文件总览插件：在每轮会话末尾展示「修改 N 个文件」行（文件 chip 点击后在**右侧边栏**打开该文件的 diff），在会话头部提供「修改记录」按钮（会话级文件修改总览）。diff 视图作为右侧边栏的一个 tab（kind `filediff`）渲染，复用侧边栏的 dock 面板能力（缩放、全屏/push、浮动、关闭）。**纯插件实现**：不改 DSH 仓库；内置分词器支持 GDScript（`.gd`）、GDShader（`.gdshader`）、GDResource（`.gdresource`），并自注册这些文件的侧边栏高亮预览。
 
 ------
